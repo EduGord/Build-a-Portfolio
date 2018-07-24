@@ -87,8 +87,9 @@ article figure figcaption {
 }
 
 footer {
-  font-size: .3rem;
+  font-size: .5rem;
   text-align: center;
+  padding-bottom: 2%;
 }
 
 footer a:hover {
@@ -97,7 +98,7 @@ footer a:hover {
 
 .cursive {
   font-family: 'Shadows Into Light', cursive;
-  font-size: .4rem;
+  font-size: .7rem;
 }
 
 
@@ -152,6 +153,12 @@ footer a:hover {
  }
  .app-link {
    font-size: .3rem;
+ }
+ footer {
+   font-size: .3rem;
+ }
+ .cursive {
+   font-size: .4rem;
  }
 }
 
