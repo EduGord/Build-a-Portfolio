@@ -1,0 +1,164 @@
+* {
+  color: #2d3c49;
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  font-size: 25px;
+}
+
+.top-container {
+  margin-top: 4%;
+}
+
+.logo {
+  margin: 0;
+  width: 70%;
+}
+
+.jane , .ninja {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.jane {
+  font-size: 1rem;
+  margin-bottom: .2rem;
+  font-weight: 300;
+}
+
+.ninja {
+  font-size: .5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+hr {
+  box-shadow: 0px 0px 3px;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+  height: 3px !important;
+  color: #7d97ad;
+  background-color: #7d97ad;
+}
+
+.code-wrapper {
+  background-color: #F5F4F8;
+  width: 100%;
+  height: 7rem;
+  padding-bottom: 3%;
+}
+
+.code {
+  transform: rotate(11deg) translateX(35%) translateY(-35%) scaleX(1.5) scaleY(.9);
+}
+
+.featured {
+  font-size: .8rem;
+  margin-bottom: .3rem;
+  padding-left: 2%;
+  color: #7d97ad;
+  font-family: 'Lato';
+  text-align: center;
+}
+
+article:hover {
+  background-color: #efefff;
+}
+
+article figure img {
+  width: 75%;
+}
+
+article figure figcaption {
+  width: 100%;
+}
+
+.app-title {
+  font-family: 'Lato';
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.app-link {
+  font-size: .5rem;
+}
+
+/* Extra small devices (landscape phones, 360px and up) */
+@media (min-width: 360px) {
+  html {
+    font-size: 30px;
+ }
+ .app-link {
+   font-size: .4rem;
+ }
+}
+
+/* Small devices (landscape phones, 420px and up) */
+@media (min-width: 420px) {
+  html {
+    font-size: 30px;
+ }
+ .logo {
+   width: 70%;
+ }
+}
+
+/* Small devices 2 (landscape phones, 480px and up) */
+@media (min-width: 480px) {
+ html {
+   font-size: 35px;
+ }
+
+}
+
+/* Small devices 3 (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+ html {
+   font-size: 40px;
+ }
+ .logo {
+   width: 130%;
+ }
+
+ article figure img{
+   width: 100%;
+ }
+
+ .featured {
+   text-align: left;
+   font-size: .6rem;
+ }
+
+ .app-title {
+   font-size: .6rem;
+ }
+ .app-link {
+   font-size: .3rem;
+ }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  html {
+   font-size: 45px;
+ }
+ .logo {
+   width: 90%;
+ }
+ .app-link {
+   font-size: .25rem;
+ }
+}
+
+/* Large devices (tablets, 992px and up) */
+@media (min-width: 992px) {
+  html {
+   font-size: 55px;
+ }
+
+ .logo {
+   width: 70%;
+ }
+}

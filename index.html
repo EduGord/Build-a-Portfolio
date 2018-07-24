@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Jane Doette Porfolio</title>
+  <meta name="description" content="Jane Doette Portfolio">
+  <meta name="author" content="Jane Doette">
+  <meta name="creator" content="Eduardo Gordilho">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:300,400,600" rel="stylesheet">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/custom.css">
+
+<body>
+  <main class="container">
+    <!-- Top -->
+    <section class="row top-container">
+      <div class="col-3 col-sm-2">
+        <img alt="udacity logo" class="logo" src="./images/udacity.svg" />
+      </div>
+      <div class="col-9 col-sm-10">
+        <div class="row">
+          <div class="col">
+            <h1 class="jane">Jane Doette</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2 class="ninja">Front-End Ninja</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!-- Code SVG -->
+    <section class="row">
+      <div class="col-12 code-container">
+        <svg class="code-wrapper">
+          <text class="code">
+            <!-- html4/... -->
+            <tspan x="-175%" y="0">
+              <tspan filter="url(#blur-3)"></tspan><tspan filter="url(#blur-2)">!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"</tspan>
+            </tspan>
+            <!--  <html xmlns= ''h... -->
+            <tspan x="-5%" y="20%">
+              <tspan filter="url(#blur-3)">&lt;html</tspan><tspan filter="url(#blur-2)">
+                 xmlns=
+               </tspan>
+               <tspan filter="url(#blur-2)">
+                   "http://www.janedoette.com/project/xhtml"&gt;
+              </tspan>
+            </tspan>
+            <!-- <head> -->
+            <tspan x="-5%" y="40%">
+              <tspan filter="url(#blur-3)">&lt;he</tspan><tspan filter="url(#blur-2)">ad&gt;</tspan>
+            </tspan>
+            <!-- meta name =... -->
+            <tspan x="2%" y="60%" filter="url(#blur-0)">
+              &lt;meta name="author" content="Jane Doette"
+            </tspan>
+            <!-- meta http-e -->
+            <tspan x="2%" y="80%" filter="url(#blur-0)">
+              &lt;meta http-equiv="refresh" content="30"&gt;
+            </tspan>
+            <!-- <meta name ='... -->
+            <tspan x="2%" y="100%">
+              <tspan filter="url(#blur-1)">&lt;met</tspan><tspan filter="url(#blur-2)">a name="viewport" content="width=device-width, initial-scale=1.0"</tspan>
+            </tspan>
+            <!-- <meta p... -->
+            <tspan x="2%" y="120%" filter="url(#blur-3)">
+              &lt;meta name="description" content="chunk of code"&gt;
+            </tspan>
+          </text>
+          <!-- Blur Filters -->
+          <filter id="blur-0">
+            <feGaussianBlur in="SourceGraphic" stdDeviation=".9" />
+          </filter>
+          <filter id="blur-1">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" />
+          </filter>
+          <filter id="blur-2">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.7" />
+          </filter>
+          <filter id="blur-3">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+          </filter>
+        </svg>
+      </div>
+    </section>
+    <!-- Featured Work -->
+    <section class="bottom-container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="featured">Featured Work</h2>
+        </div>
+      </div>
+      <!-- Featured Work Showcase -->
+      <div class="row">
+        <article class="col-12 col-sm-6 col-md-4 col-lg-4 showcase container text-center">
+          <figure>
+            <picture>
+              <source media="(max-width: 319px)" srcset="./images/appify-240-sm.png" />
+              <source media="(max-width: 369px)" srcset="./images/appify-320-md.png" />
+              <source media="(min-width: 370px)" srcset="./images/appify-373-lg.png" />
+              <img alt="icon of app store" src="./images_src/appify.png">
+            </picture>
+            <figcaption>
+              <div class="row">
+                <div class="col app-title">
+                  Appify
+                </div>
+              </div>
+              <div class="row">
+                <div class="col app-link">
+                  https://github.com/udacity/Appify
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-12 col-sm-6 col-md-4 col-lg-4 showcase container text-center">
+          <figure>
+            <picture>
+              <source media="(max-width: 319px)" srcset="./images/sunflower-240-sm.png" />
+              <source media="(max-width: 369px)" srcset="./images/sunflower-320-md.png" />
+              <source media="(min-width: 370px)" srcset="./images/sunflower-373-lg.png" />
+              <img alt="a sunflower" src="./images_src/sunflower.png">
+            </picture>
+            <figcaption>
+              <div class="row">
+                <div class="col app-title">
+                  Sunflower
+                </div>
+              </div>
+              <div class="row">
+                <div class="col app-link">
+                  https://github.com/udacity/Sunflower
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-12 col-sm-6 col-md-4 col-lg-4 showcase container text-center">
+          <figure>
+            <picture>
+              <source media="(max-width: 319px)" srcset="./images/bokeh-240-sm.png" />
+              <source media="(max-width: 369px)" srcset="./images/bokeh-320-md.png" />
+              <source media="(min-width: 370px)" srcset="./images/bokeh-373-lg.png" />
+              <img alt="landscape with nature elements: sky, clouds, sun, tree and bright drops of water reflecting the sun light" src="./images_src/bokeh.png">
+            </picture>
+            <figcaption>
+              <div class="row">
+                <div class="col app-title">
+                  Bokeh
+                </div>
+              </div>
+              <div class="row">
+                <div class="col app-link">
+                  https://github.com/udacity/Bokeh
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
