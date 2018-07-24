@@ -16,7 +16,8 @@ html {
   width: 70%;
 }
 
-.jane , .ninja {
+.jane,
+.ninja {
   width: 100%;
   text-transform: uppercase;
   text-align: right;
@@ -44,7 +45,7 @@ hr {
 }
 
 .code-container {
-  background-color: #F5F4F8;
+  background-color: #f5f4f8;
   width: 100%;
   height: 7rem;
   padding-bottom: 3%;
@@ -84,6 +85,21 @@ article figure figcaption {
 .app-link {
   font-size: .5rem;
 }
+
+footer {
+  font-size: .3rem;
+  text-align: center;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.cursive {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: .4rem;
+}
+
 
 /* Extra small devices (landscape phones, 360px and up) */
 @media (min-width: 360px) {
