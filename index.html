@@ -10,7 +10,7 @@
   <meta charset="utf-8">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:300,400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:300,600" rel="stylesheet">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -30,7 +30,13 @@
     <!-- Top -->
     <section class="row top-container">
       <div class="col-3 col-sm-2">
-        <img alt="udacity logo" class="logo" src="./images/udacity.svg" />
+        <!-- Udacity logo, copied from https://br.udacity.com/  -->
+        <figure class='logo'>
+          <svg alt="Udacity logo" viewBox="0 0 30 30">
+            <path d="M29 .5l1 .5v13c0 5.551887-2.8897 8.695692-5.995216 10.099885L24.0094 24.1l-7.620963 4.388562c-.05877.03456-.11776.068527-.176957.101902l-.08642.049764.001806-.00254C14.48289 29.545895 12.684682 30 11 30 6 30 0 26 0 18V6l2 1v11c0 8 6 10 9 10 1.858706 0 4.86901-.76773 6.89043-3.254517C14.181726 23.872636 10 20.678703 10 14V2.2L2 7 0 6l10-6 1 .5 1 .5v13c0 6.939958 4.515283 8.612086 7.017542 8.933368C19.625786 21.62159 20 19.997902 20 18V5l2 1v12c0 1.852645-.321777   3.49077-.878395 4.91438C23.648223 22.549217 28 20.813144 28 14V2.25L22 6l-2-1 8-5 1 .5z" fill="#02B3E4" fill-rule="evenodd" id="logo">
+            </path>
+          </svg>
+      </figure>
       </div>
       <div class="col-9 col-sm-10">
         <div class="row">
@@ -48,14 +54,14 @@
     <hr>
     <!-- Code SVG -->
     <section class="row">
-      <div class="col-12 code-container">
-        <svg class="code-wrapper">
+      <div class="col-12">
+        <svg class="code-container">
           <text class="code">
-            <!-- html4/... -->
+            <!--  1st line ... -->
             <tspan x="-175%" y="0">
               <tspan filter="url(#blur-3)"></tspan><tspan filter="url(#blur-2)">!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"</tspan>
             </tspan>
-            <!--  <html xmlns= ''h... -->
+            <!--  2nd line -->
             <tspan x="-5%" y="20%">
               <tspan filter="url(#blur-3)">&lt;html</tspan><tspan filter="url(#blur-2)">
                  xmlns=
@@ -64,25 +70,29 @@
                    "http://www.janedoette.com/project/xhtml"&gt;
               </tspan>
             </tspan>
-            <!-- <head> -->
+            <!--3rd line -->
             <tspan x="-5%" y="40%">
               <tspan filter="url(#blur-3)">&lt;he</tspan><tspan filter="url(#blur-2)">ad&gt;</tspan>
             </tspan>
-            <!-- meta name =... -->
+            <!-- 4th line -->
             <tspan x="2%" y="60%" filter="url(#blur-0)">
               &lt;meta name="author" content="Jane Doette"
             </tspan>
-            <!-- meta http-e -->
+            <!-- 5th line -->
             <tspan x="2%" y="80%" filter="url(#blur-0)">
               &lt;meta http-equiv="refresh" content="30"&gt;
             </tspan>
-            <!-- <meta name ='... -->
+            <!-- 6th line -->
             <tspan x="2%" y="100%">
               <tspan filter="url(#blur-1)">&lt;met</tspan><tspan filter="url(#blur-2)">a name="viewport" content="width=device-width, initial-scale=1.0"</tspan>
             </tspan>
-            <!-- <meta p... -->
+            <!-- 7th line -->
             <tspan x="2%" y="120%" filter="url(#blur-3)">
               &lt;meta name="description" content="chunk of code"&gt;
+            </tspan>
+            <!-- 8th line  -->
+            <tspan x="-5%" y="140%" filter="url(#blur-3)">
+              &lt;/head&gt;
             </tspan>
           </text>
           <!-- Blur Filters -->
@@ -109,7 +119,9 @@
         </div>
       </div>
       <!-- Featured Work Showcase -->
+      <!-- All images below belogns to Udacity, they were all extracted from the mock-up file that can be found at https://d17h27t6h515a5.cloudfront.net/topher/2017/November/5a136147_design-mockup-portfolio/design-mockup-portfolio.pdf -->
       <div class="row">
+        <!-- Appify -->
         <article class="col-12 col-sm-6 col-md-4 col-lg-4 showcase container text-center">
           <figure>
             <picture>
@@ -132,6 +144,7 @@
             </figcaption>
           </figure>
         </article>
+        <!-- Sunflower -->
         <article class="col-12 col-sm-6 col-md-4 col-lg-4 showcase container text-center">
           <figure>
             <picture>
@@ -154,6 +167,7 @@
             </figcaption>
           </figure>
         </article>
+        <!-- Bokeh -->
         <article class="col-12 col-sm-6 col-md-4 col-lg-4 showcase container text-center">
           <figure>
             <picture>
