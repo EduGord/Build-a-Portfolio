@@ -76,6 +76,7 @@ article figure figcaption {
 .app-title {
   font: 1rem "Lato";
   text-transform: uppercase;
+  margin: 0;
 }
 
 .app-link {
@@ -149,7 +150,7 @@ footer a:hover {
  }
 
  .app-link {
-   font-size: 0.3rem;
+   font-size: 0.32rem;
  }
 
  footer {
@@ -172,7 +173,7 @@ footer a:hover {
  }
 
  .app-link {
-   font-size: 0.25rem;
+   font-size: 0.28rem;
  }
 
  footer {
@@ -194,6 +195,10 @@ footer a:hover {
    width: 70%;
  }
 
+ .app-link {
+   font-size: 0.30rem;
+ }
+
  footer {
    font-size: 0.3rem;
  }
@@ -201,4 +206,5 @@ footer a:hover {
  .cursive {
    font-size: 0.4rem;
  }
+
 }
