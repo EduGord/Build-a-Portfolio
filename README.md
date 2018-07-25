@@ -10,7 +10,7 @@ Build a Portfolio Website is the second project of [Udacity Full-Stack Web Devel
 
 Here's the [Udacity's mock-up](https://d17h27t6h515a5.cloudfront.net/topher/2017/November/5a136147_design-mockup-portfolio/design-mockup-portfolio.pdf) preview for this project:
 
-![Mock-up Preview](mock-up_preview.png)
+![Mock-up Preview](README_img/mock-up_preview.png)
 
 
 
@@ -26,11 +26,11 @@ Since this project is fully responsive, there are three main categories availabl
 
 ### Large devices:
 
-![Large devices preview](preview_lg.png)
+![Large devices preview](README_img/preview_lg.png)
 
 ### Medium devices:
 
-![Medium devices preview](preview_md.png)
+![Medium devices preview](README_img/preview_md.png)
 
 
 
@@ -38,4 +38,4 @@ Since this project is fully responsive, there are three main categories availabl
 
 
 
-![Small devices preview](preview_sm.png)
+![Small devices preview](README_img/preview_sm.png)
