@@ -1,6 +1,6 @@
 # Build a Portfolio Website
 
-\**This project preview is avaliable [HERE](https://edugord.github.io/Build-a-Portfolio/)*
+\**This project preview is available [HERE](https://edugord.github.io/Build-a-Portfolio/)*
 
 ## Overview
 
