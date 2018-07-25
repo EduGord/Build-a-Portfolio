@@ -25,13 +25,11 @@ html {
 
 .jane {
   font-size: 1rem;
-  font-weight: 300;
   margin-bottom: 0.2rem;
 }
 
 .ninja {
-  font-size: 0.5rem;
-  font-weight: 600;
+  font: 600 0.5rem "Raleway";
   margin-bottom: 0;
 }
 
@@ -56,8 +54,7 @@ hr {
 }
 
 .featured {
-  font-family: 'Lato';
-  font-size: 0.8rem;
+  font: 0.8rem 'Lato';
   margin-bottom: 0.3rem;
   padding-left: 2%;
   color: #7d97ad;
@@ -77,8 +74,7 @@ article figure figcaption {
 }
 
 .app-title {
-  font-family: 'Lato';
-  font-size: 1rem;
+  font: 1rem "Lato";
   text-transform: uppercase;
 }
 
@@ -97,8 +93,7 @@ footer a:hover {
 }
 
 .cursive {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 0.7rem;
+  font: 0.7rem "Shadows Into Light", cursive;
 }
 
 
@@ -107,18 +102,13 @@ footer a:hover {
   html {
     font-size: 30px;
  }
-
  .app-link {
-   font-size: 0.4rem;
+   font-size: 0.45rem;
  }
 }
 
 /* Small devices (landscape phones, 420px and up) */
 @media (min-width: 420px) {
-  html {
-    font-size: 30px;
- }
-
  .logo {
    width: 70%;
  }
@@ -128,6 +118,10 @@ footer a:hover {
 @media (min-width: 480px) {
  html {
    font-size: 35px;
+ }
+
+ .app-link {
+   font-size: 0.4rem;
  }
 }
 
@@ -159,11 +153,11 @@ footer a:hover {
  }
 
  footer {
-   font-size: 0.3rem;
+   font-size: 0.4rem;
  }
 
  .cursive {
-   font-size: 0.4rem;
+   font-size: 0.5rem;
  }
 }
 
@@ -180,6 +174,14 @@ footer a:hover {
  .app-link {
    font-size: 0.25rem;
  }
+
+ footer {
+   font-size: 0.35rem;
+ }
+
+ .cursive {
+   font-size: 0.45rem;
+ }
 }
 
 /* Large devices (tablets, 992px and up) */
@@ -190,5 +192,13 @@ footer a:hover {
 
  .logo {
    width: 70%;
+ }
+
+ footer {
+   font-size: 0.3rem;
+ }
+
+ .cursive {
+   font-size: 0.4rem;
  }
 }
